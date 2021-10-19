@@ -1,0 +1,47 @@
+@import url("https://fonts.googleapis.com/css2?family=Arizonia&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Chivo:wght@300;400;700&family=Shippori+Mincho:wght@400;700&display=swap");
+
+html,
+body {
+  max-width: 100%;
+  overflow-x: hidden;
+  margin: 0;
+  padding: 0;
+}
+span.text-sm.font-bold.leading-relaxed.inline-block.mr-4.py-2.whitespace-no-wrap.uppercase.text-white {
+  font-family: "Arizonia",cursive;
+  text-transform: lowercase;
+  font-size: larger;
+  font-weight: 400;
+}
+
+button{
+  border: none;
+}
+
+ 
+.header-top {
+  /* background: linear-gradient(-45deg, #7f8c8d, #414141, #100c08, #8693ab); */
+  background: linear-gradient(-45deg, #ee7752, #dd80a3, #23a6d5, #23d5ab);
+  background-size: 200% 100%;
+  animation: gradient 15s ease infinite;
+}
+@keyframes gradient {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+/* LARGER SCREEN 4K!!! */
+@media (min-width: 2000) {
+  .\32xl\:text-9xl {
+    font-size: 15rem;
+    line-height: 1;
+  }
+}
