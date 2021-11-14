@@ -11,10 +11,10 @@ const Projects = () => {
         <Project
           animate='zoom-in-right'
           link='https://weatherapp80.netlify.app/'
-          src='https://res.cloudinary.com/tosin/image/upload/v1629489882/HNG/screencapture-weatherapp80-netlify-app-2021-07-05-11_06_13.png'
-          title='Weather App'
+          src='https://res.cloudinary.com/tosin/image/upload/v1636924913/screencapture-cryptouniversal-netlify-app-2021-11-14-22_14_17_uw0cuv.png'
+          title='Cryptocurrency App'
           subTitle='Frontend / HTML / CSS / React js'
-          body='Designed and built a high performance website to check the weather for any city in the world. You would love it!!!'
+          body='Designed and built a high performance website to check details of cryptocurrency and news about cryptocurrency'
         />
         <Project
           animate='zoom-in'
@@ -27,10 +27,10 @@ const Projects = () => {
         <Project
           animate='zoom-in-left'
           link='https://weatherapp80.netlify.app/'
-          src='https://res.cloudinary.com/tosin/image/upload/v1629489882/HNG/screencapture-weatherapp80-netlify-app-2021-07-05-11_06_13.png'
-          title='Weather App'
-          subTitle='Frontend / HTML / CSS / React js'
-          body='Designed and built a high performance website to check the weather for any city in the world. You would love it!!!'
+          src='https://res.cloudinary.com/tosin/image/upload/v1636924524/screencapture-firegrampic-netlify-app-2021-11-14-22_13_13_sk2sru.png'
+          title='Firegram '
+          subTitle='Frontend / HTML / CSS / React js / Firebase'
+          body='Designed and built a high performance webs app  to upload images in real time'
         />
         <Project
           animate='zoom-in-right'
@@ -45,7 +45,7 @@ const Projects = () => {
           animate='fade-left'
           link='https://farmproduceng.netlify.app/'
           src='https://res.cloudinary.com/tosin/image/upload/v1632261002/screencapture-farmproduceng-netlify-app-2021-09-21-22_42_13_bebh2t.png'
-          title='Flyo Document'
+          title='Farm Produce'
           subTitle='Frontend / HTML / CSS'
           body='Designed and built a high performance website for Farm produce ng'
         />
@@ -57,7 +57,7 @@ const Projects = () => {
           subTitle='Frontend / HTML / CSS'
           body='Designed and built a high performance website for flyo document'
         />
-        <Project
+        {/* <Project
           animate='zoom-in'
           link='https://nifty-jang-88e83d.netlify.app/'
           src='https://res.cloudinary.com/tosin/image/upload/v1633633926/screencapture-nifty-jang-88e83d-netlify-app-2021-10-07-19_42_10_msejzx.png'
@@ -72,7 +72,7 @@ const Projects = () => {
           title='Flyo Document'
           subTitle='Frontend / HTML / CSS/ React Js'
           body='Designed and built a high performance website for Farm produce ng'
-        />
+        /> */}
       </div>
     </div>
   )
