@@ -17,13 +17,30 @@ const Projects = () => {
           body='Designed and built a high performance website to check the weather for any city in the world. You would love it!!!'
         />
         <Project
-          animate='zoom-in-right'
+          animate='zoom-in'
           link='https://www.detrixstudios.com/'
           src='https://res.cloudinary.com/tosin/image/upload/v1632497509/HNG/screencapture-detrixstudios-2021-09-23-22_01_11.png'
           title='Detrix Studios'
           subTitle='Frontend / HTML / CSS / React js'
           body='Designed and built a high performance website for a photography and videography Business'
         />
+        <Project
+          animate='zoom-in-left'
+          link='https://weatherapp80.netlify.app/'
+          src='https://res.cloudinary.com/tosin/image/upload/v1629489882/HNG/screencapture-weatherapp80-netlify-app-2021-07-05-11_06_13.png'
+          title='Weather App'
+          subTitle='Frontend / HTML / CSS / React js'
+          body='Designed and built a high performance website to check the weather for any city in the world. You would love it!!!'
+        />
+        <Project
+          animate='zoom-in-right'
+          link='https://weatherapp80.netlify.app/'
+          src='https://res.cloudinary.com/tosin/image/upload/v1629489882/HNG/screencapture-weatherapp80-netlify-app-2021-07-05-11_06_13.png'
+          title='Weather App'
+          subTitle='Frontend / HTML / CSS / React js'
+          body='Designed and built a high performance website to check the weather for any city in the world. You would love it!!!'
+        />
+
         <Project
           animate='fade-left'
           link='https://farmproduceng.netlify.app/'
