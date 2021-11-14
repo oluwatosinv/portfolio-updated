@@ -12,10 +12,7 @@ import 'aos/dist/aos.css'
 
 export default function Project(props) {
   useEffect(() => {
-    // Aos.init({ duration: 1000 })
-    $(function () {
-      AOS.init()
-    })
+    Aos.init({ duration: 1000 })
   }, [])
 
   return (
