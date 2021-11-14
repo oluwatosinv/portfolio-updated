@@ -1,5 +1,5 @@
-@import url('https://fonts.googleapis.com/css2?family=Arizonia&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Chivo:wght@300;400;700&family=Shippori+Mincho:wght@400;700&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Arizonia&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Chivo:wght@300;400;700&family=Shippori+Mincho:wght@400;700&display=swap");
 
 html,
 body {
@@ -9,16 +9,17 @@ body {
   padding: 0;
 }
 span.text-sm.font-bold.leading-relaxed.inline-block.mr-4.py-2.whitespace-no-wrap.uppercase.text-white {
-  font-family: 'Arizonia', cursive;
+  font-family: "Arizonia",cursive;
   text-transform: lowercase;
   font-size: larger;
   font-weight: 400;
 }
 
-button {
+button{
   border: none;
 }
 
+ 
 .header-top {
   /* background: linear-gradient(-45deg, #7f8c8d, #414141, #100c08, #8693ab); */
   background: linear-gradient(-45deg, #ee7752, #dd80a3, #23a6d5, #23d5ab);
