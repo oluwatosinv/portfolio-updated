@@ -26,7 +26,7 @@ const Projects = () => {
         />
         <Project
           animate='zoom-in-left'
-          link='https://weatherapp80.netlify.app/'
+          link='https://firegrampic.netlify.app/'
           src='https://res.cloudinary.com/tosin/image/upload/v1636924524/screencapture-firegrampic-netlify-app-2021-11-14-22_13_13_sk2sru.png'
           title='Firegram '
           subTitle='Frontend / HTML / CSS / React js / Firebase'
