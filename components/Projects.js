@@ -10,7 +10,7 @@ const Projects = () => {
       <div className='mt-3 grid grid-cols-1 lg:grid-cols-3 md:grid-cols-2 gap-6 justify-items-center'>
         <Project
           animate='zoom-in-right'
-          link='https://weatherapp80.netlify.app/'
+          link='https://cryptouniversal.netlify.app/'
           src='https://res.cloudinary.com/tosin/image/upload/v1636924913/screencapture-cryptouniversal-netlify-app-2021-11-14-22_14_17_uw0cuv.png'
           title='Cryptocurrency App'
           subTitle='Frontend / HTML / CSS / React js'
