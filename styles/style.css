@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Arizonia&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Arizonia&family=Satisfy&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Chivo:wght@300;400;700&family=Shippori+Mincho:wght@400;700&display=swap');
 
 html,
@@ -8,8 +8,16 @@ body {
   margin: 0;
   padding: 0;
 }
+.svg-inline--fa.fa-w-14, 
+svg.svg-inline--fa.fa-github.fa-w-16,
+svg.svg-inline--fa.fa-twitter.fa-w-16
+{
+  font-size: 3em;
+  color: white;
+}
 span.text-sm.font-bold.leading-relaxed.inline-block.mr-4.py-2.whitespace-no-wrap.uppercase.text-white {
   font-family: 'Arizonia', cursive;
+  font-family: 'Satisfy', cursive;
   text-transform: lowercase;
   font-size: larger;
   font-weight: 400;
@@ -43,4 +51,5 @@ button {
     font-size: 15rem;
     line-height: 1;
   }
+
 }
