@@ -16,7 +16,7 @@ svg.svg-inline--fa.fa-twitter.fa-w-16
   color: white;
 }
 span.text-sm.font-bold.leading-relaxed.inline-block.mr-4.py-2.whitespace-no-wrap.uppercase.text-white {
-  font-family: 'Arizonia', cursive;
+  /* font-family: 'Arizonia', cursive; */
   font-family: 'Satisfy', cursive;
   text-transform: lowercase;
   font-size: larger;
