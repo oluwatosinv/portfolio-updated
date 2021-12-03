@@ -15,7 +15,7 @@ const Header = () => {
   return (
     <section className='header 2xl:py-16 2xl:px-36 py-1 md:px-16 px-8  grid grid-cols-1 md:grid-cols-2'>
       <div className='head '>
-        <h1 className='heading-title font-medium text-white text-5xl md:text-5xl lg:text-7xl 2xl:text-9xl font-shippori-mincho mt-10'>
+        <h1 className='heading-title  font-medium text-white text-5xl md:text-5xl lg:text-7xl 2xl:text-9xl font-shippori-mincho mt-10'>
           Hey, I'm Oluwatosin,
         </h1>
         <p className='heading-text  2xl:py-20 2xl:pt-36 text-1xl  py-4'>
