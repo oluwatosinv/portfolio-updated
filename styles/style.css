@@ -8,6 +8,18 @@ body {
   margin: 0;
   padding: 0;
 }
+body {
+  -webkit-animation-delay: 0.1s;
+  -webkit-animation-name: fontfix;
+  -webkit-animation-duration: 0.1s;
+  -webkit-animation-iteration-count: 1;
+  -webkit-animation-timing-function: linear;
+}
+
+@-webkit-keyframes fontfix {
+  from { opacity: 1; }
+  to   { opacity: 1; }
+}
 nav.flex.flex-wrap.items-center.justify-between.py-2\.5.px-3.mb-3.bg-light-blue-500.false.bg-pink-600 {
   background-color: #52547A;
 }
