@@ -8,6 +8,12 @@ body {
   margin: 0;
   padding: 0;
 }
+nav.flex.flex-wrap.items-center.justify-between.py-2\.5.px-3.mb-3.bg-light-blue-500.false.bg-pink-600 {
+  background-color: #52547A;
+}
+button.border-transparent.animate-bounce.transition.duration-1000.bg-pink-600.text-wheat.font-Poppins.px-8.py-4.my-8.rounded-full.rounded-tl-3xl.uppercase.mt-8.hover\:bg-gray-500.shadow-lg.text-white {
+  background-color: #811a2c;
+}
 .svg-inline--fa.fa-w-14, 
 svg.svg-inline--fa.fa-github.fa-w-16,
 svg.svg-inline--fa.fa-twitter.fa-w-16
@@ -17,7 +23,7 @@ svg.svg-inline--fa.fa-twitter.fa-w-16
 }
 span.text-sm.font-bold.leading-relaxed.inline-block.mr-4.py-2.whitespace-no-wrap.uppercase.text-white {
   /* font-family: 'Arizonia', cursive; */
-  font-family: 'Satisfy', cursive;
+  font-family: 'Satisfy', Cursive;
   text-transform: lowercase;
   font-size: larger;
   font-weight: 400;
@@ -31,7 +37,8 @@ button {
 }
 .header-top {
   /* background: linear-gradient(-45deg, #7f8c8d, #414141, #100c08, #8693ab); */
-  background: linear-gradient(-45deg, #ee7752, #dd80a3, #23a6d5, #23d5ab);
+  /* background: linear-gradient(-45deg, #ee7752, #dd80a3, #23a6d5, #23d5ab); */
+  background: linear-gradient(-45deg, #313249, #787BA5, #6c6f9d, #e7e7ef);
   background-size: 200% 100%;
   animation: gradient 15s ease infinite;
 }
