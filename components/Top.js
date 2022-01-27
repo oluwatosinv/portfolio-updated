@@ -16,7 +16,9 @@ export default function Top() {
     <Navbar navbar className='bg-pink-600'>
       <NavbarContainer>
         <NavbarWrapper>
-          <NavbarBrand className='navtip'>Oluwatosin Faboade</NavbarBrand>
+          <NavbarBrand className='navtip italic'>
+            Oluwatosin Faboade
+          </NavbarBrand>
           <NavbarToggler
             color='white'
             onClick={() => setOpenNavbar(!openNavbar)}
