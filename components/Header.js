@@ -24,11 +24,11 @@ const Header = () => {
             <Typical
               steps={[
                 'Front-End Developer,',
-                1000,
+                1500,
                 'Software Developer,',
-                1000,
+                1500,
                 'Software Engineer,',
-                1000,
+                1500,
               ]}
               wrapper='p'
               loop={Infinity}
