@@ -31,12 +31,12 @@ svg.svg-inline--fa.fa-twitter.fa-w-16
   color: white;
 } */
 span.text-sm.font-bold.leading-relaxed.inline-block.mr-4.py-2.whitespace-no-wrap.uppercase.text-white {
-  /* font-family: 'Arizonia', cursive; */
-  font-family: 'Satisfy', Cursive;
+  font-family: 'Arizonia', cursive;
+  /* font-family: 'Satisfy', Cursive; */
   text-transform: lowercase;
-  font-size: larger;
+  font-size: large;
   font-style: italic;
-  font-weight: 400;
+  font-weight: 300;
 }
 
 button {
