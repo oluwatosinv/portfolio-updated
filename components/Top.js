@@ -28,15 +28,18 @@ export default function Top() {
 
         <NavbarCollapse open={openNavbar}>
           <Nav>
-            <NavLink
+            <a
               href='https://drive.google.com/file/d/1uj8DjXepHv5oGq_qQeX9U618jIBMuqzb/view'
               ripple='light'
+              className='underlines'
             >
-              Resume
-            </NavLink>
+              
+                Resume
+              
+            </a>
             {/* <NavItem ripple="light">Resume</NavItem> */}
-            <a href='#projects'>
-              <NavItem ripple='light'>Projects</NavItem>
+            <a href='#projects' className='underlines' >
+              Projects
             </a>
           </Nav>
         </NavbarCollapse>
