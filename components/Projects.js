@@ -3,9 +3,9 @@ import Project from './Project'
 
 const Projects = () => {
   return (
-    <div className='px-6 py-4 ' id='projects'>
-      <h1 className='text-center text-4xl text-gray-900 py-8 mt-6 font-shippori-mincho font-medium'>
-        Recent Projects
+    <div className='container mx-auto px-6 py-4 ' id='projects'>
+      <h1 className='featured text-center text-4xl text-gray-900 py-8 mt-6 font-shippori-mincho font-medium'>
+        Featured Projects
       </h1>
       <div className='mt-3 grid grid-cols-1 lg:grid-cols-3 md:grid-cols-2 gap-6 justify-items-center'>
         <Project

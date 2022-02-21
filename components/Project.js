@@ -26,8 +26,8 @@ export default function Project(props) {
                     />
 
                     <CardBody>
-                        <h3 className='text-center text-3xl mb-4'>{props.title}</h3>
-                        <p className='text-green-600'>{props.subTitle}</p>
+                        <h3 className='text-3xl mb-4'>{props.title}</h3>
+                        <p className='featured-color'>{props.subTitle}</p>
                         <Paragraph color="gray">
                             {props.body}
                         </Paragraph>
